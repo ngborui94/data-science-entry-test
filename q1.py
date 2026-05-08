@@ -18,3 +18,14 @@ def swap(x, y):
 
     print("x =", x)
     print("y =", y)
+
+# Task 2
+# Invoke the function "swap" using the following scenarios:
+# - "Apple", 10
+# - 9, 17
+
+print(swap("Apple", 10))   # Expected output: -1
+
+swap(9, 17)                # Expected output:
+                            # x = 17
+                            # y = 9
