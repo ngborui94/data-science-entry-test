@@ -9,12 +9,12 @@ def find_first_negative(lst):
 
 index = 0
     
-    while index < len(lst):
-        if lst[index] < 0:
+    while index < len(lst): # Finds the first negative in a list (1st)
+        if lst[index] < 0:  # return the first negative number if found
             return lst[index]
         index += 1
     
-    return "No negatives"
+    return "No negatives" # if not found, return "No negatives"
 
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
